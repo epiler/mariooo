@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="0dp">
+
+
+    <View
+        android:id="@+id/gorro1"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <View
+        android:id="@+id/gorro2"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.64"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gorro1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/pelo1"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:background="@color/saddlebrown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gorro2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/cara1"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:background="@color/mario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/pelo1"
+        app:layout_constraintTop_toBottomOf="@id/gorro2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/ojo1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/cara1"
+        app:layout_constraintTop_toBottomOf="@id/gorro2"
+        app:layout_constraintVertical_bias="0.0" />
+    <View
+        android:id="@+id/ojo2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/cara1"
+        app:layout_constraintTop_toBottomOf="@id/ojo1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/cara2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/mario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/ojo1"
+        app:layout_constraintTop_toBottomOf="@id/gorro2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/pelo2"
+        android:layout_width="30dp"
+        android:layout_height="90dp"
+        android:background="@color/saddlebrown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cara2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/oreja"
+        android:layout_width="30dp"
+        android:layout_height="60dp"
+        android:background="@color/mario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/pelo2"
+        app:layout_constraintTop_toBottomOf="@id/pelo1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/pelo3"
+        android:layout_width="30dp"
+        android:layout_height="60dp"
+        android:background="@color/saddlebrown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/oreja"
+        app:layout_constraintTop_toBottomOf="@id/pelo1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/pelo4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/saddlebrown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/pelo3"
+        app:layout_constraintTop_toBottomOf="@id/pelo4"
+        app:layout_constraintVertical_bias="0.262" />
+
+    <View
+        android:id="@+id/pelo5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/saddlebrown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/pelo2"
+        app:layout_constraintTop_toBottomOf="@id/oreja"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/cara3"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:background="@color/mario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/pelo3"
+        app:layout_constraintTop_toBottomOf="@id/cara1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/nariz1"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:background="@color/mario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/ojo1"
+        app:layout_constraintTop_toBottomOf="@id/cara2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/nariz2"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:background="@color/mario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.967"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nariz1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/bigote"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/ojo1"
+        app:layout_constraintTop_toBottomOf="@id/nariz1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/bigote3"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:background="@color/mario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/pelo4"
+        app:layout_constraintTop_toBottomOf="@id/nariz1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/cara4"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:background="@color/mario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/pelo5"
+        app:layout_constraintTop_toBottomOf="@id/bigote3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/bigote2"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/cara4"
+        app:layout_constraintTop_toBottomOf="@id/pelo4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/cara5"
+        android:layout_width="240dp"
+        android:layout_height="30dp"
+        android:background="@color/mario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cara4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/camisa1"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cara5"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/overol1"
+        android:layout_width="30dp"
+        android:layout_height="90dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/camisa1"
+        app:layout_constraintTop_toBottomOf="@id/cara5"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/camisa2"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/overol1"
+        app:layout_constraintTop_toBottomOf="@id/cara5"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/camisa3"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/overol1"
+        app:layout_constraintTop_toBottomOf="@id/camisa2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/overol2"
+        android:layout_width="60dp"
+        android:layout_height="120dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/overol1"
+        app:layout_constraintTop_toBottomOf="@id/camisa3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/overol3"
+        android:layout_width="30dp"
+        android:layout_height="60dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/overol2"
+        app:layout_constraintTop_toBottomOf="@id/camisa2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/camisa4"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/overol3"
+        app:layout_constraintTop_toBottomOf="@id/camisa2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/boton1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/yellow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/overol2"
+        app:layout_constraintTop_toBottomOf="@id/camisa4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/boton2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/yellow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/overol1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/camisa5"
+        android:layout_width="30dp"
+        android:layout_height="60dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/camisa1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.453" />
+
+    <View
+        android:id="@+id/camisa6"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/boton2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/camisa4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/camisa7"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/boton1"
+        app:layout_constraintTop_toBottomOf="@id/camisa4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/overol4"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/overol2"
+        app:layout_constraintTop_toBottomOf="@id/boton1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/overol5"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.287"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/boton2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/camisa8"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/boton2"
+        app:layout_constraintHorizontal_bias="0.71"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/camisa1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/camisa9"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/overol4"
+        app:layout_constraintTop_toBottomOf="@id/camisa4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/camisa10"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/camisa5"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.476" />
+
+    <View
+        android:id="@+id/camisa11"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/camisa4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.476" />
+
+    <View
+        android:id="@+id/mano1"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:background="@color/mario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.031"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/camisa5"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/mano2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/mario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/mano1"
+        app:layout_constraintTop_toBottomOf="@id/camisa8"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/mano3"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:background="@color/mario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/camisa9"
+        app:layout_constraintTop_toBottomOf="@id/camisa4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/mano4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/mario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/overol4"
+        app:layout_constraintTop_toBottomOf="@id/camisa8"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/overol6"
+        android:layout_width="30dp"
+        android:layout_height="60dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/mano1"
+        app:layout_constraintTop_toBottomOf="@id/mano2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/overol7"
+        android:layout_width="30dp"
+        android:layout_height="60dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/overol4"
+        app:layout_constraintTop_toBottomOf="@id/mano2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/zapatos"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:background="@color/shoes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/overol5"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/zapatos2"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:background="@color/shoes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.031"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/zapatos"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/zapatos3"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:background="@color/shoes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/overol5"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/zapatos4"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:background="@color/shoes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/zapatos3"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
